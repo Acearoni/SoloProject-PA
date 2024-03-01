@@ -1,0 +1,58 @@
+.display-all-snacks {
+    display: inline-block;
+    justify-content: center;
+    border: 1px solid white; 
+    border-style: solid;
+    width: 900px;
+}
+
+.all-header {
+    margin-left: 130px;
+}
+
+
+.snack-table {
+    display: flex;
+    flex-direction: column;
+    width: 695px;
+    max-height: 293px;
+    border: 2px whitesmoke;
+    border-style: groove;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+
+th  {
+width: 604px;
+padding: 9px;
+border: 1px dotted rgb(209, 209, 209);
+}
+
+
+
+tbody {
+
+    height: 300px;
+    width: 700px;
+    overflow-y: scroll;
+}
+
+
+.snack-table td {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.snack-table th:nth-child(2),
+.snack-table td:nth-child(2) {
+    width: 40px; 
+    text-align: center;
+}
+
+.snack-table th {
+    background-color: #f2f2f2;
+    color: #666;
+}

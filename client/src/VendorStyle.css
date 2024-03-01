@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 900px;
+    width: 1900px;
+    border: 1px solid white;
+    /* Set the amount of padding you want */
+}
+
+.vending-machine {
+    border: 1px solid white;
+    margin-right: 100px;
+    width: 900px;
+    text-align: center;
+    /* Center align the content */
+    display: flex;
+    /* Use flexbox layout */
+    flex-direction: column;
+    /* Arrange children vertically */
+    justify-content: left;
+    /* Center align vertically */
+    align-items: center;
+    /* Center align horizontally */
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'impact';
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+/* Styles for buttons container */
+.buttons {
+    display: grid;
+    /* Use grid layout for buttons */
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns with equal width */
+    justify-content: center;
+    /* Center align buttons horizontally */
+    align-items: center;
+    /* Center align buttons vertically */
+    gap: 10px;
+    /* Add some space between buttons */
+}
+
+/* Styles for individual buttons */
+button {
+    width: 200px;
+    /* Fixed width for buttons */
+    height: 100px;
+    /* Fixed height for buttons */
+    padding: 10px;
+    /* Padding for button content */
+    border: none;
+    border-radius: 5px;
+    background-color: #161515;
+    /* Default button color */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Smooth transition for background color */
+}
+
+
+/* Darken button color on hover */
+button:hover {
+    background-color: #999;
+}
+
+/* Darken button color on click */
+button:active {
+    background-color: #666;
+}
+
+.add-snack-css {
+    margin-top: 20px;
+}
+
+.add-snack-css a {
+    color: #007bff;
+    /* Change link color to blue */
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 16px;
+}
+
+.add-snack-css a:hover {
+    color: #0056b3;
+    /* Darker blue on hover */
+}
+
