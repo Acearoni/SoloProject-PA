@@ -3,11 +3,8 @@ import axios from 'axios';
 import '../ViewOne.css';
 
 const DisplayOne = ({ code }) => {
-    // State to store the snack data
     const [snack, setSnack] = useState(null);
-    // State to track loading state
     const [loading, setLoading] = useState(true);
-    // State to track error state
     const [error, setError] = useState(null);
 
     // Function to fetch snack data based on the code
@@ -40,10 +37,8 @@ const DisplayOne = ({ code }) => {
     }
 
     return (
-        <div>
-            <h2>{snack.name},  Price: {snack.price} </h2>
-
-            {/* Add more details if needed */}
+        <div className='one-adjust'>
+            <h2>{snack.name},  Price: {snack.price.toFixed(2)} </h2>
         </div>
     );
 };

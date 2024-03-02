@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import '../SnackTable.css';
+import { Link } from 'react-router-dom';
 
 
 const DisplayAll = () => {
@@ -32,7 +33,7 @@ const DisplayAll = () => {
                 <tbody>
                     {snacks.map((snack) => (
                         <tr key={snack._id}>
-                            <td>{snack.name}</td>
+                            <td><Link to={`/update-snack/${snack._id}`}>{snack.name}</Link></td>
                             <td>{snack.code}</td>
                         </tr>
                     ))}

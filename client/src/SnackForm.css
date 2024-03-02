@@ -29,7 +29,6 @@ input[type="text"],
 input[type="number"] {
     padding: 0.5rem;
     width: 200px;
-    /* Adjust width as needed */
 }
 
 .submit-button {
@@ -42,7 +41,7 @@ input[type="number"] {
     cursor: pointer;
     font-family: 'Arial';
     font-size: small;
-    text-align: center; /* Center the text horizontally */
+    text-align: center;
     margin-left: 60px;
 }
 
