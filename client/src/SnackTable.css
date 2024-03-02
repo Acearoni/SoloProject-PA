@@ -1,8 +1,6 @@
 .display-all-snacks {
     display: inline-block;
     justify-content: center;
-    border: 1px solid white; 
-    border-style: solid;
     width: 900px;
 }
 

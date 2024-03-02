@@ -125,7 +125,7 @@ const UpdateSnackForm = () => {
                         {errors.price && <p className="error-message">{errors.price}</p>}
                     </div>
                     <div className='buttons-together'>
-                    <button type="submit" className='submit-button'>Update</button>
+                    <button type="submit" className='update-button'>Update</button>
                     <button type="button"className='delete-button' onClick={handleDelete}>Delete</button>
                     </div>
                 </form>

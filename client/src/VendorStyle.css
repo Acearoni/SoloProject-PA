@@ -3,11 +3,9 @@
     justify-content: center;
     height: 900px;
     width: 1900px;
-    border: 1px solid white;
 }
 
 .vending-machine {
-    border: 1px solid white;
     margin-right: 100px;
     width: 900px;
     text-align: center;

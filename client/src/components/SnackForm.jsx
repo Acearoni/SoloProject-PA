@@ -107,9 +107,9 @@ const SnackForm = () => {
                             onChange={(e) => setPrice(e.target.value)}
                         />
                         {errors.price && <p className="error-message">{errors.price}</p>}
+                        <button className="submit-button" type="submit">SUBMIT</button>
                     </div>
 
-                    <button className="submit-button" type="submit">SUBMIT</button>
                 </form>
             </div>
         </div>
