@@ -3,7 +3,7 @@
     justify-content: center;
     height: 900px;
     width: 100%;
-    background-image: url('../public/images/TEST.png');
+    background-image: url('/images/TEST.png');
     background-blend-mode: darken;
     background-repeat: none;
     background-position: center;
