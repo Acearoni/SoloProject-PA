@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-import '../UpdateSnack.css';
+import '../styles/UpdateSnack.css';
 
 const UpdateSnackForm = () => {
     const { id } = useParams();

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import '../ViewOne.css';
+import '../styles/ViewOne.css';
 
 const DisplayOne = ({ code }) => {
     const [snack, setSnack] = useState(null);

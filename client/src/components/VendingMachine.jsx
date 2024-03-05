@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../VendorStyle.css';
+import '../styles/VendorStyle.css';
 import { Link } from 'react-router-dom';
 import DisplayOne from './DisplayOne';
 import DisplayAll from './DisplayAll';

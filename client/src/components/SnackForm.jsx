@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import '../SnackForm.css';
+import '../styles/SnackForm.css';
 
 const SnackForm = () => {
     const [name, setName] = useState('');
