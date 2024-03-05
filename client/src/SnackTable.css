@@ -10,6 +10,7 @@
 
 
 .snack-table {
+    color: white;
     display: flex;
     flex-direction: column;
     width: 695px;
@@ -28,9 +29,7 @@ border: 1px dotted rgb(209, 209, 209);
 }
 
 
-
 tbody {
-
     height: 300px;
     width: 700px;
     overflow-y: scroll;
@@ -38,6 +37,7 @@ tbody {
 
 
 .snack-table td {
+    background-color: #666;
     padding: 10px;
     width: 600px;
     border: 1px solid #ddd;
